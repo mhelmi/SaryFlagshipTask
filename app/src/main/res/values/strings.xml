@@ -1,0 +1,19 @@
+<resources>
+  <string name="app_name">ساري</string>
+  <string name="title_shopping_cart">سلة المشتريات</string>
+  <string name="title_sary_logo">ساري لوجو</string>
+
+  <string name="title_store">المتجر</string>
+  <string name="title_orders">الطلبات</string>
+  <string name="title_profile">صفحتي</string>
+
+  <string name="search_hint">ابحث عن الي ناقصك</string>
+  <string name="error_catalog">لقد حدث خطأ!</string>
+
+  <string-array name="fake_stores">
+    <item>بقالة الأمانة</item>
+    <item>بقالة السعادة</item>
+    <item>بقالة الهناء</item>
+    <item>بقالة النقاء</item>
+  </string-array>
+</resources>

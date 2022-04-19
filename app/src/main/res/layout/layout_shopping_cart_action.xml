@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  style="?attr/actionButtonStyle"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:clipToPadding="false"
+  android:focusable="true">
+
+  <ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:contentDescription="@string/title_shopping_cart"
+    android:src="@drawable/ic_outline_shopping_cart_24"
+    app:tint="@color/black" />
+
+  <TextView
+    android:id="@+id/tv_badge_counter"
+    android:layout_width="@dimen/_16sdp"
+    android:layout_height="@dimen/_16sdp"
+    android:layout_gravity="center"
+    android:layout_marginStart="@dimen/_7sdp"
+    android:layout_marginBottom="@dimen/_4sdp"
+    android:background="@drawable/drawable_badge_red"
+    android:gravity="center"
+    android:includeFontPadding="false"
+    android:paddingStart="@dimen/_1sdp"
+    android:paddingTop="@dimen/_1sdp"
+    android:paddingEnd="@dimen/_1sdp"
+    android:paddingBottom="@dimen/_1sdp"
+    android:textColor="?colorOnError"
+    android:visibility="gone"
+    app:autoSizeMaxTextSize="@dimen/_12ssp"
+    app:autoSizeMinTextSize="@dimen/_7ssp"
+    app:autoSizeStepGranularity="1sp"
+    app:autoSizeTextType="uniform"
+    tools:text="+99"
+    tools:visibility="visible" />
+</FrameLayout>
